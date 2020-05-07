@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="logo" onmouseover = "logoOver(this);" onmouseout = "logoOut(this);">
+            YWS
+        </h1>
+        <ul class = "menu">
+            <li class="menu-item"><a href="#home">Home</a></li>
+            <li class="menu-item"><a href="#services">Services</a></li>
+            <li class="menu-item"><a href="#about-us">About</a></li>
+            <li class="menu-item"><a href="#our-portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact-with-us">Contact</a></li>
+        </ul>
+        <div class="language">
+            <p class="az">az</p>
+            <p class="en" style = "background: var(--c2);">en</p>
+            <p class="ru">ru</p>
+        </div>
+        <div class="burger-icon" onclick = "showBurger(this);">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <section id = "home">
+        <div class="bg-opacity"></div>
+        <p class="center-text"></p>
+    </section>
+
+    <section id = "services"> 
+        <h1 class="page-title">out services</h1>
+
+        <div class="services-container">
+
+            <div class="services-item" data-aos="fade-up">
+                <div class="icon-c">
+                    <div class="icon">
+                        <img src="icons/pencil.svg" alt="">
+                    </div>
+                </div>
+                <h3 class="services-title">Content Writing</h3>
+                <p class="services-content">
+                    Lorem ipsum dolor sit amet consectetur. Labore saepe minima ipsum enim earum repellat!
+                </p>
+            </div>
+
+            <div class="services-item" data-aos="fade-up">
+                <div class="icon-c">
+                    <div class="icon">
+                        <img src="icons/code.svg" alt="">
+                    </div>
+                </div>
+                <h3 class="services-title">Web development</h3>
+                <p class="services-content">
+                    Lorem ipsum dolor sit amet consectetur. Labore saepe minima ipsum enim earum repellat!
+                </p>
+            </div>
+
+            <div class="services-item" data-aos="fade-up">
+                <div class="icon-c">
+                    <div class="icon">
+                        <img src="icons/code.svg" alt="">
+                    </div>
+                </div>
+                <h3 class="services-title">Web development</h3>
+                <p class="services-content">
+                    Lorem ipsum dolor sit amet consectetur. Labore saepe minima ipsum enim earum repellat!
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about-us">
+        <h1 class="page-title">About Us</h1>
+        <div class="row m-0">
+            <div class="col-lg-6 col-12 about-photo" data-aos="zoom-in">
+                <img src="img/about-us-3.png" alt="">
+            </div>
+            <div class="col-lg-6 col-12 about-content" data-aos="zoom-in">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sint eligendi eveniet. Velit, aspernatur dolore, omnis, illum sit enim eos earum perferendis tenetur autem atque.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis rerum nesciunt laudantium corrupti fugiat velit minima incidunt fuga officia sunt eveniet optio laborum voluptatibus totam, cumque itaque! Id odit, blanditiis numquam error voluptas possimus at praesentium saepe tenetur ullam quo commodi iusto facere. Explicabo nam, facere cupiditate sed maxime accusamus? Aliquam, voluptate est reprehenderit corporis eaque quidem nemo, distinctio molestias deserunt temporibus sit, inventore esse veniam cumque quasi quis. Illum, iure voluptatem! Consectetur commodi ab animi dolor doloremque nemo odit repudiandae, provident quae, itaque perspiciatis obcaecati ipsa sed, repellendus ad omnis. Quis praesentium quasi quibusdam dolorem repellat sequi officiis aliquid. Molestiae molestias ipsa nisi repellendus tenetur. Architecto et deserunt, molestiae, aspernatur nesciunt maxime rem quibusdam incidunt praesentium nulla ab, deleniti necessitatibus! Non, quasi! Sunt, qui omnis. Debitis sit eveniet accusamus! Nisi accusantium omnis aliquid natus officia quam est temporibus, illo ipsum dolorem tempora, debitis assumenda quos exercitationem accusamus. Minus, eligendi.
+            </div>
+        </div>
+    </section>
+
+    <section id="our-team">
+        <div class="our-team-bg"></div>
+        <h1 class="page-title" style = "color: #fff;">Our Team</h1>
+        <div class="our-team">
+
+            <div class="our-team-item">
+                <img src="img/bill.png" alt="">
+                <h3 class="team-item-position">Ceo</h3>
+                <h4 class="team-item-name">Bill Gates</h4>
+                <div class="team-item-social">
+                    <ul class="contact-social-media">
+                        <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="social-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="social-item"><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+                <div class="team-item-about">
+                    asalorem30  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, excepturi ipsum. Natus sint quia minima hic, odio quasi placeat! Magnam.
+                </div>
+            </div>
+            <div class="our-team-item">
+                <img src="img/bill.png" alt="">
+                <h3 class="team-item-position">Manager</h3>
+                <h4 class="team-item-name">Bill Gates</h4>
+                <div class="team-item-social">
+                    <ul class="contact-social-media">
+                        <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="social-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="social-item"><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+                <div class="team-item-about">
+                    asalorem30  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, excepturi ipsum. Natus sint quia minima hic, odio quasi placeat! Magnam.
+                </div>
+            </div>
+            <div class="our-team-item">
+                <img src="img/mark.png" alt="">
+                <h3 class="team-item-position">Full stack</h3>
+                <h4 class="team-item-name">Mark Zurkurberk</h4>
+                <div class="team-item-social">
+                    <ul class="contact-social-media">
+                        <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="social-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="social-item"><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+                <div class="team-item-about">
+                    asalorem30  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, excepturi ipsum. Natus sint quia minima hic, odio quasi placeat! Magnam.
+                </div>
+            </div>
+            <div class="our-team-item">
+                <img src="img/elon.png" alt="">
+                <h3 class="team-item-position">Front end</h3>
+                <h4 class="team-item-name">Elon Mask</h4>
+                <div class="team-item-social">
+                    <ul class="contact-social-media">
+                        <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="social-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="social-item"><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+                <div class="team-item-about">
+                    asalorem30  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, excepturi ipsum. Natus sint quia minima hic, odio quasi placeat! Magnam.
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="our-portfolio">
+        <h1 class="page-title">Our Portfolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-item" onclick = "zoomPortfolio();" data-aos="fade-right">
+                <div class="portfolio-item-bg">
+                    <p class="portfolio-zoom">zoom</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick = "zoomPortfolio();" data-aos="fade-left">
+                <div class="portfolio-item-bg">
+                    <p class="portfolio-zoom">zoom</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick = "zoomPortfolio();" data-aos="fade-right">
+                <div class="portfolio-item-bg">
+                    <p class="portfolio-zoom">zoom</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick = "zoomPortfolio();" data-aos="fade-left">
+                <div class="portfolio-item-bg">
+                    <p class="portfolio-zoom">zoom</p>
+                </div>
+            </div>
+        </div>
+        <!-- load more button -->
+        <div class="text-center mb-3">
+            <button class="load-more py-2 px-5 my-4 align-center" onclick = "closeLoadMoreButton(this)">Load more</button>
+            <div class="loading-bar w-100 text-center my-5">
+                <div class="loading-item loading-item-1"></div>
+                <div class="loading-item loading-item-2"></div>
+                <div class="loading-item loading-item-3"></div>
+                <div class="loading-item loading-item-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="use-technology">
+        <div class="page-title">us technology</div>
+        <div class="content">
+            <img src="img/html.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/css.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/js.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/bts4.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/mongodb.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/nodejs.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <img src="img/react.png" alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+        </div>
+    </section>
+
+    <section id="our-clients">
+        <div class="clients-bg">        
+            <div class="clients-item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <i class="far fa-clock"></i>
+                <p class="clients-count">1252</p>
+                <p class="clients-name">Working Hours</p>
+            </div>
+            <div class="clients-item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <i class="far fa-user"></i>
+                <p class="clients-count">1252</p>
+                <p class="clients-name">Our Clients</p>
+            </div>
+            <div class="clients-item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <i class="far fa-window-maximize"></i>
+                <p class="clients-count">1252</p>
+                <p class="clients-name">Web site</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact-with-us">
+        <div class="row">
+            <div class="col-lg-6 col-12" data-aos="zoom-in-right">
+                <div class="contact-content">
+                    <h3 class="contact-title">Contact With us</h3>
+                    <p class="office-location">Baku Lorem, ipsum dolor.</p>
+                    <p class="contact-phone">Phone: (+994 XX XXX XX XX)</p>
+                    <p class="contact-email">E-mail: vugartaghiyev@mail.ru</p>
+                    <ul class="contact-social-media">
+                        <li class="social-item"><i class="fab fa-facebook-f"></i></li>
+                        <li class="social-item"><i class="fab fa-google-plus-g"></i></li>
+                        <li class="social-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-item"><i class="fab fa-linkedin-in"></i></li>
+                        <li class="social-item"><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12" data-aos="zoom-in-left">
+                <form action="" class="contact-form">
+                    <input type="text" class="contact-input" placeholder="Your Name"><br>
+                    <input type="email" class="contact-input" placeholder="Your Email"><br>
+                    <textarea name="" class="contact-input" placeholder="Your Message"></textarea>
+                    <br><button class="contact-button">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        All copyrights reserved © 2020 by vugartaghiyev@mail.ru
+    </section>
+
+    <div class="portfolio-popup">
+        <div class="popup-container">
+            <div class="popup-bg"></div>
+            <img src="img/portfolio.jpg" alt="">
+            <div class="popup-close" onclick = "zoomPortfolio();">x</div>
+        </div>
+    </div>
+
+    <div class="burger-menu">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>About us</li>
+            <li>Contact</li>
+        </ul>
+        <div class="burger-language">
+            <span>az</span>
+            <span>en</span>
+            <span>ru</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/fd540daa68.js"></script>
+
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>
